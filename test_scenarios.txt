@@ -1,0 +1,59 @@
+Background:
+Finnish Reference Number = Basic Part (3-19) digits + 1 check digit
+
+Basic Part can be for example customer number
+Check digit can be calculated as follows:
+https://wiki.xmldation.com/support/fk/finnish_reference_number
+https://www.pangaliit.ee/settlements-and-standards/reference-number-of-the-invoice
+
+Note that for all scenarios below, when generating test cases,
+a selected set of the basic part of the finnish reference number will be used.
+
+Scenario 1: Finnish Reference Number + Number of Reference #'s selected is 1
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 1
+
+Scenario 2: Finnish Reference Number + Number of Reference #'s selected is 10
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 10
+
+Scenario 3: Finnish Reference Number + Number of Reference #'s selected is 25
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 25
+
+Scenario 4: Finnish Reference Number + Number of Reference #'s selected is 50
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 50
+
+Scenario 5: Finnish Reference Number + Number of Reference #'s selected is 100
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 100
+
+Scenario 6: Finnish Reference Number + Number of Reference #'s selected is 200
+    "Suomalainen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 200
+
+Scenario 7: International Reference Number + Number of Reference #'s selected is 1
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 1
+
+Scenario 8: International Reference Number + Number of Reference #'s selected is 10
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 10
+
+Scenario 9: International Reference Number + Number of Reference #'s selected is 25
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 25
+
+Scenario 10: International Reference Number + Number of Reference #'s selected is 50
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 50
+
+Scenario 11: International Reference Number + Number of Reference #'s selected is 100
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 100
+
+Scenario 12: International Reference Number + Number of Reference #'s selected is 200
+    "Kansainvälinen Viitenumero" is selected
+    "Viitenumeroiden lukumaara" is 200
+
